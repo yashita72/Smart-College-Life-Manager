@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f0f0f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.page {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-shadow: 0 0 12px rgba(255,255,255,0.3);
+}
+
+.tagline {
+  font-size: 14px;
+  color: #b5b5b5;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-group button {
+  width: 50%;
+}
+
+#tasks {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#tasks li {
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #ff5c5c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout {
+  background: transparent;
+  color: #ff5c5c;
+}
